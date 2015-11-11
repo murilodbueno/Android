@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_remove_image"
+        android:title="@string/lbl_remover"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_change_image"
+        android:title="@string/lbl_alterar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cancel"
+        android:title="@string/lbl_cancelar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

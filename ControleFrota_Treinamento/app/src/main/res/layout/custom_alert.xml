@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView android:text="Alert Info"
+            android:id="@+id/txt_id_mensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <!-- Additional Content Here -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="42dp"
+            android:id="@+id/btnCancelId"
+            android:textColor="@drawable/custom_button_cancel"
+            android:background="@drawable/custom_button_cancel"
+            android:text="@string/lbl_cancelar"
+            android:layout_gravity="center_vertical">
+        </Button>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="    "/>
+
+        <Button android:id="@+id/btnOkId"
+            android:layout_width="152dp"
+            android:layout_height="40dp"
+            android:text="@string/lbl_confirmar"
+            android:layout_gravity="center_vertical">
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>
