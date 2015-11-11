@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Drawer - begin -->
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/drawerList"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111111"
+        android:dividerHeight="1dp"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/white"
+        />
+    <!-- Drawer - begin -->
+
+    <!-- DashBoard - begin -->
+
+    <!-- App Name - begin -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <!-- App Name - end -->
+
+    <!-- RelativeLayout - begin -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#015488">
+
+        <!-- Elements and icons - begin-->
+
+        <!-- New cost icon - begin -->
+        <TextView android:id="@+id/newCostId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/new_cost"
+            android:onClick="selectOption"
+            android:text="@string/lbl_new_cost"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <!-- New cost icon - end -->
+
+        <!-- New travel icon - begin -->
+        <TextView android:id="@+id/newTravelId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/newCostId"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/new_travel"
+            android:onClick="selectOption"
+            android:text="@string/lbl_new_travel"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <!-- New travel icon - end -->
+
+        <!-- My travels icon - begin -->
+        <TextView android:id="@+id/myTravelsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/newCostId"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/my_travels"
+            android:onClick="selectOption"
+            android:text="@string/lbl_my_travels"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+        <!-- My travels icon - end -->
+
+        <!-- Settings icon - begin -->
+        <TextView android:id="@+id/settingsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/myTravelsId"
+            android:layout_alignRight="@+id/newTravelId"
+            android:clickable="true"
+            android:drawableTop="@drawable/settings"
+            android:onClick="selectOption"
+            android:text="@string/lbl_settings"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <!-- Settings icon - begin -->
+        <!-- Elements and icons - end-->
+    </RelativeLayout>
+    <!-- RelativeLayout - end -->
+    <!-- DashBoard - begin -->
+</android.support.v4.widget.DrawerLayout>

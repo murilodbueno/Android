@@ -1,0 +1,113 @@
+<resources>
+    <!-- Title - begin-->
+    <string name="app_name">Controle de Frota</string>
+    <!-- Title - end -->
+
+    <!-- Global labels - begin -->
+    <string name="generic_error">Houve algum erro. Tente novamente.</string>
+    <string name="sinc_erro_fatal">Erro fatal na sincronização.</string>
+    <string name="sinc_sucesso">Sincronização realizada com sucesso.</string>
+    <string name="sinc_erro_negocio">Erro de negocio na sincronização.</string>
+
+    <string name="lbl_conexao_indisponivel">Não é possível conectar.</string>
+    <string name="lbl_preenchimento_obrigatorio">Preenchimento obrigatório.</string>
+    <string name="lbl_opcoes">Opções</string>
+    <string name="lbl_remover">Remover</string>
+    <string name="lbl_alterar">Alterar</string>
+    <string name="lbl_enviar">Enviar</string>
+    <string name="lbl_proximo">Próximo</string>
+    <string name="lbl_anterior">Anterior</string>
+    <string name="lbl_cancelar">Cancelar</string>
+    <string name="lbl_confirmar">Confirmar</string>
+    <string name="lbl_concluir">Concluir</string>
+    <string name="lbl_sim">Sim</string>
+    <string name="lbl_nao">Não</string>
+    <!-- Global labels - end-->
+
+    <!-- Buttons - begin -->
+    <string name="lbl_entregar_chave">Entrega de chaves</string>
+    <string name="lbl_saida_veiculos">Saída de veículos</string>
+    <string name="lbl_entrada_veiculos">Entrada de veículos</string>
+    <string name="lbl_devolucao_chaves">Devolução de chaves</string>
+    <string name="lbl_status">Status</string>
+    <string name="lbl_sincronizar">Toque para sincronizar</string>
+    <!-- Buttons - end -->
+
+    <!-- Sincronizacao inicial - begin -->
+    <string name="lbl_busca_unidade_sincronizacao">Digite o código de sua unidade para que seja realizada a sincronização inicial.</string>
+    <string name="lbl_codigo_unidade">Código da Unidade</string>
+    <string name="lbl_unidade_nao_encontrada">Por favor, verifique o código digitado.</string>
+    <string name="lbl_sincronizando">Sincronizando...</string>
+    <!-- Sincronizacao inicial - end -->
+
+    <!-- Entrega de chaves - begin -->
+    <string name="lbl_entrega_chave_carros">Entrega de chaves - Carros</string>
+    <string name="lbl_entrega_chave_motoristas">Entrega de chaves - Motoristas</string>
+    <string name="entrega_chave_confirmation_dialog">O funcionário %1$s ficará responsável pelo %2$s.</string>
+    <string name="entrega_chave_msg_success">Chave entregue.</string>
+    <string name="entrega_chave_carros_lista_vazia">Não há chaves para entrega.</string>
+    <string name="entrega_chave_motoristas_lista_vazia">Não há motoristas disponíveis.</string>
+    <!-- Entrega de chaves - end -->
+
+    <!-- Saida veiculos - begin -->
+    <string name="lbl_saida_veiculos_carros">Saída de veículos - Carros</string>
+    <string name="lbl_saida_veiculos_avarias">Saída de veículos - Avarias</string>
+    <string name="lbl_saida_veiculos_checklist">Saída de veículos - Checklist</string>
+    <string name="lbl_saida_veiculos_saida_confirmacao">Saída - Confirmação</string>
+    <string name="lbl_item_para_avaliar">Item para avaliar</string>
+    <string name="lbl_estado">Estado</string>
+    <string name="lbl_extintor">Extintor</string>
+    <string name="lbl_documento">Documento</string>
+    <string name="lbl_cartao_combustivel">Cartão de combustível</string>
+    <string name="lbl_pneu_reserva">Pneu reserva</string>
+    <string name="lbl_macaco">Macaco</string>
+    <string name="lbl_triangulo">Triângulo</string>
+    <string name="lbl_nivel_combustivel">Nível de combustível</string>
+    <string name="lbl_um_quarto">¼</string>
+    <string name="lbl_meio">½</string>
+    <string name="lbl_tres_quartos">¾</string>
+    <string name="lbl_cheio">Cheio</string>
+    <string name="avarias_ext_alteracao_dialog">Existe uma avaria registrada nesta peça. Deseja altera-lá?</string>
+    <string name="avarias_ext_return_dialog">Deseja retornar para a seleção de carros?</string>
+    <string name="lbl_confirmar_senha_funcionario_avaria">Digite sua senha para confirmar as avarias e a saída do veículo.</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="saida_veiculos_msg_success">Veículo retirado do pátio.</string>
+    <string name="saida_veiculos_lista_vazia">Não há carros na unidade.</string>
+    <!-- Saida Veiculos - end -->
+
+    <!-- Informações - begin -->
+    <string name="lbl_informacoes">Informações</string>
+    <string name="lbl_versao">Versão:</string>
+    <string name="lbl_atualizacoes">Atualizações</string>
+    <string name="lbl_ultima_atualizacao">Última atualização:</string>
+    <!-- Informações - end -->
+
+    <!-- Devolução de chaves- begin -->
+    <string name="lbl_escolha_placa">Escolha a placa do carro que está devolvendo a chave.</string>
+    <string name="devolucao_confimation_dialog">Deseja mesmo desvincular o funcionário %1$s do carro %2$s?</string>
+    <string name="devolucao_msg_success">Chave devolvida.</string>
+    <string name="devolucao_lista_vazia">Não há chaves para devolução.</string>
+    <!-- Devolução de chaves - end -->
+
+    <!-- Status - begin -->
+    <string name="title_chaves_entregues">Chaves entregues</string>
+    <string name="desc_chaves_entregues">Quantidade de chaves em posse de funcionários</string>
+    <string name="title_carros_rua">Carros na rua</string>
+    <string name="desc_carros_rua">Quantidade de carros que sairam da unidade</string>
+    <string name="title_chaves_quadro">Chaves no quadro</string>
+    <string name="desc_chaves_quadro">Quantidade de chaves disponíveis para entrega</string>
+    <string name="title_carros_patio">Carros no pátio</string>
+    <string name="desc_carros_patio">Quantidade de carros na unidade</string>
+    <!-- Status - end -->
+
+    <!-- Entrada de veiculos - begin -->
+    <string name="lbl_entrada_veiculos_mensagem">Escolha a placa do carro que está retornando para a unidade.</string>
+    <string name="entrada_veiculos_confirmation_dialog">Deseja realmente confirmar a entrada do %1$s?</string>
+    <string name="entrada_veiculos_msg_success">Veículo de volta ao pátio.</string>
+    <string name="entrada_veiculos_lista_vazia">Não há veículos fora da unidade.</string>
+    <!-- Entrada de veiculos - end -->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_information">Informações</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/lbl_preference">
+        <CheckBoxPreference android:key="mod_travel"
+            android:summary="@string/lbl_mod_travel_summary"
+            android:title="@string/lbl_mod_travel"/>
+
+        <EditTextPreference android:dialogTitle="@string/lbl_limit_value"
+            android:key="limit_value"
+            android:defaultValue="80"
+            android:summary="@string/lbl_limit_value_summary"
+            android:title="@string/lbl_costs_alert"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Table - begin-->
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2">
+
+        <!-- Elements - begin -->
+        <LinearLayout android:background="#015488"
+            android:orientation="vertical">
+
+            <!-- Title - begin -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lbl_new_travel"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+            <!-- Title - end -->
+
+        </LinearLayout>
+
+        <!-- Fields - begin -->
+
+        <!-- Destiny - begin -->
+        <TextView android:text="@string/lbl_destiny" />
+        <EditText android:id="@+id/destinyId"
+            android:inputType="text" />
+        <!-- Destiny - end -->
+
+        <!-- Travel type - begin -->
+        <TextView android:text="@string/lbl_travel_type"/>
+        <RadioGroup android:id="@+id/travelTypeId"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/recreationId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/lbl_recreation"/>
+
+            <RadioButton android:id="@+id/businessId"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_business"/>
+
+        </RadioGroup>
+        <!-- Travel Type - end -->
+
+        <!-- Dates travel - begin -->
+        <TableRow>
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/lbl_date_arrival" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/lbl_date_exit" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/dateArrivalId"
+                android:onClick="selectDate"
+                android:text="@string/lbl_selecione" />
+
+            <Button
+                android:id="@+id/dateExitId"
+                android:onClick="selectDate"
+                android:text="@string/lbl_selecione" />
+        </TableRow>
+        <!-- Dates travel - end -->
+
+        <!-- Financial Field - begin -->
+        <TextView android:text="@string/lbl_budget"/>
+        <EditText android:id="@+id/budgetId"
+            android:inputType="numberDecimal"/>
+        <!-- Financial Field - end -->
+
+        <!-- Amount Peoples - begin -->
+        <TableRow>
+            <TextView android:layout_width="wrap_content"
+                android:text="@string/lbl_amount_people"/>
+            <EditText android:id="@+id/amountPeopleId"
+                android:inputType="number"/>
+        </TableRow>
+
+        <Button android:onClick="saveTravel"
+            android:text="@string/lbl_save"/>
+        <!-- Amount Peoples - end -->
+
+        <!-- Fields - end -->
+        <!-- Elements - end -->
+
+    </TableLayout>
+    <!-- Table - end-->
+
+</ScrollView>

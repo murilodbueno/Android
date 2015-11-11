@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lista itens - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_item_para_avaliar"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_dark" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_estado"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_dark"/>
+    </LinearLayout>
+
+    <!-- extintor - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tr_extintor_id"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_extintor"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_extintor"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- extintor - end -->
+
+    <!-- documento - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tr_documento_id"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_documento"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_documento"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- documento - end -->
+
+    <!-- cartao combustivel - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tr_cartao_combustivel_id"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_cartao_combustivel"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_cartao_combustivel"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- cartao combustivel - end -->
+
+    <!-- pneu reserva - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_pneu_reserva"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_pneu_reserva"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- pneu reserva - end -->
+
+    <!-- pneu reserva - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_macaco"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_macaco"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- pneu reserva - end -->
+
+    <!-- pneu reserva - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_triangulo"
+            android:textColor="@color/text_color_dark"/>
+
+        <Switch
+            android:id="@+id/sw_triangulo"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:checked="true"
+            android:textOff="@string/lbl_nao"
+            android:textOn="@string/lbl_sim" />
+    </LinearLayout>
+    <!-- pneu reserva - end -->
+
+    <!-- nivel combustivel - begin -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tr_nivel_combustivel_id"
+        android:paddingTop="10dp">
+
+        <TextView android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_nivel_combustivel"
+            android:textColor="@color/text_color_dark"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group_combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton android:id="@+id/cb_nivel_combustivel_um_quarto_id"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_um_quarto"
+            android:clickable="true"
+            android:textColor="@color/text_color_dark"/>
+
+        <RadioButton android:id="@+id/cb_nivel_combustivel_meio_id"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_meio"
+            android:clickable="true"
+            android:textColor="@color/text_color_dark"/>
+
+        <RadioButton android:id="@+id/cb_nivel_combustivel_tres_quartos_id"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_tres_quartos"
+            android:clickable="true"
+            android:textColor="@color/text_color_dark"/>
+
+        <RadioButton android:id="@+id/cb_nivel_combustivel_cheio_id"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_cheio"
+            android:clickable="true"
+            android:textColor="@color/text_color_dark"/>
+    </RadioGroup>
+        <!-- nivel combustivel - end -->
+
+    <!-- Botoes - begin -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_anterior_saida_carros_checklist_id"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="anterior"
+            android:text="@string/lbl_anterior"/>
+
+        <Button android:id="@+id/btn_proximo_saida_checklist_id"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="proximo"
+            android:text="@string/lbl_proximo"/>
+    </LinearLayout>
+    <!-- Botoes - end -->
+</LinearLayout>

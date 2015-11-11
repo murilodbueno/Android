@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_above="@+id/button_group"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/carro"/>
+
+        <ImageButton android:id="@+id/avaria_bt_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="116dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="158dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="196dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="82dp"
+            android:layout_marginStart="154dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="106dp"
+            android:layout_marginStart="88dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="106dp"
+            android:layout_marginStart="218dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="112dp"
+            android:layout_marginStart="62dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="112dp"
+            android:layout_marginStart="244dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="132dp"
+            android:layout_marginStart="96dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="132dp"
+            android:layout_marginStart="154dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="132dp"
+            android:layout_marginStart="210dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="82dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="106dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="224dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="218dp"
+            android:layout_marginStart="154dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="82dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="106dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="224dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="292dp"
+            android:layout_marginStart="62dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="292dp"
+            android:layout_marginStart="88dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="292dp"
+            android:layout_marginStart="218dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="292dp"
+            android:layout_marginStart="244dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="154dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="328dp"
+            android:layout_marginStart="154dp"
+            android:src="@drawable/circle_shape_button_green"/>
+
+        <ImageButton android:id="@+id/avaria_bt_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="348dp"
+            android:layout_marginStart="102dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="348dp"
+            android:layout_marginStart="192dp"
+            android:src="@drawable/circle_shape_button_green"/>
+        <ImageButton android:id="@+id/avaria_bt_29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="362dp"
+            android:layout_marginStart="148dp"
+            android:src="@drawable/circle_shape_button_green"/>
+    </FrameLayout>
+
+    <!-- Botoes - begin -->
+    <LinearLayout
+        android:id="@id/button_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_anterior_saida_carros_avarias_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="anterior"
+            android:text="@string/lbl_anterior"/>
+
+        <Button android:id="@+id/btn_proximo_saida_avarias_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="proximo"
+            android:layout_weight="1"
+            android:text="@string/lbl_proximo"/>
+    </LinearLayout>
+    <!-- Botoes - end -->
+</RelativeLayout>

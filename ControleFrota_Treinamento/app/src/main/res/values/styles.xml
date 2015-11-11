@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:selectableItemBackground">@drawable/ab_background_selector</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonTheme</item>
+        <item name="android:homeAsUpIndicator">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">@color/app_primary</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextTheme</item>
+    </style>
+
+    <style name="ActionBarTitleTextTheme">
+        <item name="android:textColor">@color/text_action_bar</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="OverflowButtonTheme">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_mtrl_alpha</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/button_action_background_selector</item>
+        <item name="android:textColor">@color/text_button_action</item>
+    </style>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false">
+
+    <!-- Lista itens - begin -->
+    <TableLayout android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp">
+
+        <TableRow android:paddingTop="5dp">
+            <TextView android:id="@+id/confirmacao_funcionario_id"
+                android:layout_width="wrap_content"
+                android:textColor="@color/text_color_dark"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_confirmar_senha_funcionario_avaria"
+                android:textColor="@color/text_color_dark" />
+        </TableRow>
+
+        <TableRow android:paddingTop="5dp">
+
+        </TableRow>
+    </TableLayout>
+    <!-- Lista itens - end -->
+
+    <!-- lista em branco -->
+    <EditText android:paddingTop="50dp"
+        android:layout_width="184dp"
+        android:hint="@string/lbl_senha"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/pw_senha_id"
+        android:layout_gravity="center_horizontal" >
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    <!-- lista em branco -->
+
+    <!-- Botoes - begin -->
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_anterior_saida_carros_confirmacao_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="anterior"
+            android:text="@string/lbl_anterior"/>
+
+        <Button android:id="@+id/btn_concluir_saida_confirmacao_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="concluir"
+            android:layout_weight="1"
+            android:text="@string/lbl_concluir"/>
+    </LinearLayout>
+    <!-- Botoes - end -->
+</LinearLayout>
