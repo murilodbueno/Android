@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hardware</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_capturar_imagem">Capturar</string>
+    <string name="lbl_visualizar_imagem">Visualizar</string>
+    <string name="lbl_testar_camera">Testar Camera</string>
+    <string name="lbl_capturar_video">Capturar Video</string>
+    <string name="lbl_visualizar_video">Visualizar Video</string>
+    <string name="lbl_localizacao">Localização</string>
+</resources>
