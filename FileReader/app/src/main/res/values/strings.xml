@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FileReader</string>
+    <string name="apresentation">Arquivos</string>
+    <string name="imagem">Imagem</string>
+    <string name="lbl_zoom">Zoom (%):</string>
+    <string name="lbl_PDF">PDF</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Próximo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
